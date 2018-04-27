@@ -16,11 +16,7 @@
         <activity
             android:name=".View.login"
             android:theme="@style/Theme.Design.Light.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".View.daftar" />
         <activity
@@ -29,7 +25,20 @@
         <activity
             android:name=".View.pemesanan"
             android:label="Upload Desain" />
-        <activity android:name=".View.pemesanan2"></activity>
+        <activity android:name=".View.pemesanan2" />
+        <activity android:name=".View.pembayaran" />
+        <activity android:name=".View.lihat_pembayaran" />
+        <activity android:name=".View.profil" />
+        <activity android:name=".View.pembayaran2" />
+        <activity
+            android:name=".View.splashscreen"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
